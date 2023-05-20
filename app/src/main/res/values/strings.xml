@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Compose Testing App</string>
+    <string name="enter_length">Enter length</string>
+    <string name="enter_width">Enter width</string>
+    <string name="count">Calculate!</string>
+    <string name="result">Result: %s</string>
 </resources>

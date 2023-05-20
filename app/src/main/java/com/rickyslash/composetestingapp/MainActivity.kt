@@ -10,6 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.rickyslash.composetestingapp.ui.CalculatorApp
 import com.rickyslash.composetestingapp.ui.theme.ComposeTestingAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,23 +22,18 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    CalculatorApp()
                 }
             }
         }
     }
 }
 
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
-
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     ComposeTestingAppTheme {
-        Greeting("Android")
+
     }
 }
 
